@@ -80,5 +80,5 @@ bamCoverage -p $THREADS --MNase -bs 1 --normalizeUsing BPM --smoothLength 25 -of
 module load MACS3/3.0.0b1-foss-2022a-Python-3.10.4
 
 #using --nolambda paramenter to call peaks without control
-macs3 callpeak -t "${bam}" -f BAMPE -n "${name}" --broad -g 40000000 --broad-cutoff 0.1 --outdir "${OUTDIR}/Peaks" --min-length 800 --max-gap 500 --nolambda
+macs3 callpeak -t "${bam}" -f BAMPE -n "${name}" --broad -g 41037538 --broad-cutoff 0.1 --outdir "${OUTDIR}/Peaks" --min-length 800 --max-gap 500 --nolambda
 done
